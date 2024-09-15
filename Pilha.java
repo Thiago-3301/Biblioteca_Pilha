@@ -1,7 +1,6 @@
 package georgethiago.pilhaint;
 
 public class Pilha {
-	
 	No topo;
 	
 	public Pilha() {
@@ -24,7 +23,6 @@ public class Pilha {
 		}else {
 			elemento.proximo = topo;
 			topo = elemento;
-		
 		}
 	}
 	
